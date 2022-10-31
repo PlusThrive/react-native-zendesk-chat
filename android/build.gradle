@@ -6,7 +6,7 @@ def safeExtGet(prop, fallback) {
 
 buildscript {
   repositories {
-    jcenter()
+    mavenCentral()
     google()
   }
 
@@ -29,7 +29,6 @@ android {
 
 repositories {
   mavenCentral()
-  jcenter()
   google()
   maven { url 'https://zendesk.jfrog.io/zendesk/repo' }
 }
